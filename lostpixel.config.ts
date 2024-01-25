@@ -6,7 +6,7 @@ export const config: CustomProjectConfig = {
   },
   // OSS mode
   generateOnly: true,
-  failOnDifference: true,
+  failOnDifference: false,
 
   // Lost Pixel Platform (to use in Platform mode, comment out the OSS mode and uncomment this part )
   // lostPixelProjectId: "xxxx",

@@ -9,7 +9,7 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
     type="button"
     (click)="onClick.emit($event)"
     [ngClass]="classes"
-    style="background-color: #333;"
+    style="background-color:red;"
   >
     {{ label }}
   </button>`,
